@@ -1,0 +1,16 @@
+{
+    "name": "KeepVisitorHttpRawData",
+    "description": "Piwik plugin to keep all visitor raw HTTP headers",
+    "version": "v1.0.0",
+    "keywords": ["HTTP", "plugin"],
+    "license": "GPL v3",
+    "homepage": "https://github.com/ThaDafinser/Piwik-KeepVisitorHttpRawData",
+    "authors": [
+        {"name": "Martin Keckeis", "homepage": "https://github.com/thadafinser"}
+    ],
+    "theme": false,
+    "require": {
+        "piwik": "2.16.0",
+        "php": "5.5.0"
+    }
+}
