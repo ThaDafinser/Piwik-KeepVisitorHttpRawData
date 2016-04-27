@@ -9,7 +9,6 @@
 namespace Piwik\Plugins\KeepVisitorHttpRawData\Columns;
 
 use Piwik\Plugin\Dimension\VisitDimension;
-use Piwik\Tracker\Action;
 use Piwik\Tracker\Request;
 use Piwik\Tracker\Visitor;
 
@@ -34,7 +33,7 @@ class KeepVisitorHttpRawData extends VisitDimension
      *
      * @return string
      */
-    public function onNewVisit(Request $request, Visitor $visitor, Action $action = null)
+    public function onNewVisit(Request $request, Visitor $visitor, $action = null)
     {
         $headers = [];
         
