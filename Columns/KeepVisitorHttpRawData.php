@@ -33,7 +33,7 @@ class KeepVisitorHttpRawData extends VisitDimension
      *
      * @return string
      */
-    public function onNewVisit(Request $request, Visitor $visitor, $action = null)
+    public function onNewVisit(Request $request, Visitor $visitor, $action)
     {
         $headers = [];
         
